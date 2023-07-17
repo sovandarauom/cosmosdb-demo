@@ -1,0 +1,16 @@
+GET http://localhost:8080/api/v1/users?id=48041db9-1642-4e88-a3ae-b39affea4876
+Accept: application/json
+
+###
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+
+{
+  "firstName": "sovandara",
+  "lastName": "uom",
+  "email": "uom@mail.com"
+}
+
+###
+
+
